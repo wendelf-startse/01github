@@ -1,0 +1,27 @@
+	Commands
+
+- iniciar projeto
+	yarn init -y
+
+- adicionando react
+	yarn add react
+	yarn add react-dom -> para o react se comunicar com a dom
+
+-configurarndo babel
+	-> Converter para todos os navegadores
+	yarn add @babel/core @babel/cli @babel/preset-env -D
+
+	convertendo o index usando babel
+	yarn babel src/index.jsx -o dist/bundle.js	
+
+	não se trabalha com html dentro do javascript, instalar dependencia para que ele consiga entender o codigo react dentro do arquivo index.js
+	yarn add @babel/preset-react -D
+
+- Adicionando e configurarndo webpack
+	yarn add webpack webpack-cli webpack-dev-server -D
+	rodar: yarn webpack
+	
+
+
+
+
